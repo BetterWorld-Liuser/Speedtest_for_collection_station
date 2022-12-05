@@ -10,7 +10,8 @@ pd.set_option('display.unicode.east_asian_width', True)
 
 
 # 初始化 argparser
-parser = argparse.ArgumentParser("资源站测速工具v0.1", description="读取文件中的")
+parser = argparse.ArgumentParser(
+    "资源站测速工具v0.1", description="对给出的采集站进行测速, 找出其中速度最佳的")
 parser.add_argument("-f", default="./list.txt",
                     help="存储测试站点列表的文件地址", dest="file_path")
 parser.add_argument("-n", required=True,

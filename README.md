@@ -1,5 +1,19 @@
 # Speedtest_for_collection_station
 
-# 简单实用
+# 依赖
 
-`python main.py -n 财阀家的小儿子 -f ./list.txt`
+- requests
+- xmltodict
+- pandas
+
+# 获取帮助
+
+```python
+python main.py -h
+```
+
+# 例子
+
+```python
+python main.py -n 财阀家的小儿子 -f ./list.txt
+```
